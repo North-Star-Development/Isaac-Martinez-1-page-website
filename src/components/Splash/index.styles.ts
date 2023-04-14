@@ -1,16 +1,43 @@
-import styled from "styled-components";
+import styled, {keyframes} from "styled-components";
 
+// gradient animation
+const gradient = keyframes`
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+    `
+ // wave animation
+const waveAnimation = keyframes`
+    0% { transform: rotate( 0.0deg) }
+    10% { transform: rotate(14.0deg) } 
+    20% { transform: rotate(-8.0deg) }
+    30% { transform: rotate(14.0deg) }
+    40% { transform: rotate(-4.0deg) }
+    50% { transform: rotate(10.0deg) }
+    60% { transform: rotate( -4.0deg) }  
+    100% { transform: rotate( 8.0deg) }
+`
+
+// splash container styles
 export const SplashContainer = styled.div`
   background-image: url("/assets/pngs/background.png");
   position: relative;
-
 `;
 
+// splash text container styles
 export const SplashTextContainer = styled.div`
   display : flex;
   flex-direction : center;
   justify-content : center;
 `
+
+// splash text styles
 export const SplashText = styled.span`
   display: flex;
   flex-direction : column;
@@ -21,6 +48,33 @@ export const SplashText = styled.span`
 
   span:nth-child(1) {
     font-size : 1.7rem;
+    .wave {
+        animation-name: ${waveAnimation};  /* Refers to the name of your @keyframes element below */
+        animation-duration: 2.5s;        /* Change to speed up or slow down */
+        animation-iteration-count: infinite;  /* Never stop waving :) */
+        transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+        display: inline-block;
+    }
+    .name {
+        background-image: linear-gradient(
+            -225deg,
+            #FFD700 0%,
+            #EEE8AA	 29%,
+            #fff 67%,
+            whitesmoke 80%,
+            #FFD700 100%
+    );   
+    font-size : 1.7rem;
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto; 
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: ${gradient} 2s linear infinite;
+    }
   }
   span:nth-child(2) {
     font-size : 3rem;
@@ -33,6 +87,7 @@ export const SplashText = styled.span`
   }
 `;
 
+// input container styles
 export const InputContainer = styled.div`
   position: absolute;
   width: 45rem;
@@ -67,15 +122,17 @@ export const InputContainer = styled.div`
   }
 `;
 
+// splash input styles
 export const SplashInput = styled.input`
   width: 100%;
   height: 3rem;
   padding: 0 0 0 1rem;
   outline: none;
   border: none;
-
   border-radius: 15px;
 `;
+
+// splash input button styles
 export const SplashInputButton = styled.button`
   position: absolute;
   top: 0;
@@ -83,10 +140,8 @@ export const SplashInputButton = styled.button`
   height: 3rem;
   border: none;
   outline: none;
-
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-
   padding: 0 1.5rem;
   background-color: #d2ac47;
   font-size: 0.9rem;
