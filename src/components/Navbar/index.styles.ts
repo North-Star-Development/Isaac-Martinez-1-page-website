@@ -4,14 +4,13 @@ import styled from "styled-components";
 // Navbar container styles
 export const NavbarContainer = styled.div`
   position: relative;
-
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding: 0rem 2rem;
   height: 15vh;
-  background-color: hsla(0, 0%, 7.8431372549019605%, 0.401);
+//   background-color: hsla(0, 0%, 7.8431372549019605%, 0.401);
 `;
 
 // Navbar logo styles
