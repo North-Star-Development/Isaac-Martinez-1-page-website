@@ -14,7 +14,7 @@ const Splash = () => {
       <Navbar />
      <SplashTextContainer>
          <SplashText>
-       <span>Hi 👋🏽 there, I'm Nicolas </span>
+       <span>Hi <span className="wave">👋🏽</span> there, I'm <span className="name">Nicolas.</span></span>
        <span>I offer business services</span>
       </SplashText>
      </SplashTextContainer>
