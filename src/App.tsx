@@ -1,6 +1,5 @@
 // importing components that makes up the app.
-
-import Navbar from "./components/Navbar"
+import Splash from "./components/Splash"
 
 
 // JSX Component
@@ -8,7 +7,7 @@ function App() {
 // Building block
   return (
     <>
-     <Navbar/>
+     <Splash/>
     </>
   )
 }
