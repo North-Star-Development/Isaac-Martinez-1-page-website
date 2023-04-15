@@ -11,6 +11,10 @@ export const AboutContainer = styled.div`
   @media screen and (max-width: 373px) {
     padding: 4rem 1.5rem;
   }
+
+  .merchant {
+    margin-top: -4rem;
+  }
 `;
 
 export const AboutBoxOne = styled.div`
@@ -136,7 +140,7 @@ export const AboutDetails = styled.div`
         font-weight: 200;
         font-size: 1rem;
         line-height: 130%;
-        inline-size: 57rem;
+        inline-size: 62rem;
         overflow-wrap: break-word;
         margin: auto;
         padding : 1rem 0rem;
@@ -171,6 +175,12 @@ export const ParagraphDetails = styled.div`
         gap : 2rem;
         padding : 1rem 0rem;
 
+        .each {
+          background-color: rgb(242 230 202);
+          padding : 0.5rem 1rem;
+          border-radius : 0.5rem;
+        }
+
         h3 {
         display: block;
         word-spacing: 5px;
@@ -181,14 +191,14 @@ export const ParagraphDetails = styled.div`
         margin : auto;
        }
 
-      p {
+       p {
         display: block;
         font-weight: 200;
         line-height: 130%;
         inline-size: 30rem;
         overflow-wrap: break-word;
         margin: auto;
-       }
+        }
      }
 
      
