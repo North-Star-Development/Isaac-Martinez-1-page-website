@@ -61,9 +61,14 @@ import {
         </AboutDetails>
         <AboutDetails className="merchant">
             <h2> Stop Paying Merchant Fees!</h2>
+        
             <p> For a limited time, we are offering a special promotion for new members of our Cash Discount Program. Sign up within the next 30 days and
               receive a special discount on the initial setup fee.</p>
-            <MerchantContact/>
+              <div className="merchant__images">
+                <img src="/assets/pngs/img-merchant.png" alt="merchant" />
+                <img src="/assets/pngs/img-merchant2.png" alt="merchant " />
+            </div>
+            {/* <MerchantContact/> */}
         </AboutDetails>
       </AboutContainer>
     );
