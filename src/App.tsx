@@ -2,6 +2,7 @@
 import About from "./components/About"
 import Services from "./components/Services"
 import Splash from "./components/Splash"
+import Testimonials from "./components/Testimonials"
 
 
 // JSX Component
@@ -12,6 +13,7 @@ function App() {
      <Splash/>
      <Services/>
      <About/>
+     <Testimonials/>
     </>
   )
 }
