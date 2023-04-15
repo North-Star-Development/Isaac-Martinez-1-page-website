@@ -1,6 +1,7 @@
 // import custom styles
 import { clientDetails } from "../../utils/utils";
 import { AboutDetails } from "../About/index.styles";
+import MerchantContact from "../Merchant";
 import { TestimonialsContainer } from "./index.styles";
 
  const Testimonials = () => {
@@ -25,6 +26,7 @@ import { TestimonialsContainer } from "./index.styles";
                     ))
                 }
             </div>
+            <MerchantContact/>
          </TestimonialsContainer>
     )
  }

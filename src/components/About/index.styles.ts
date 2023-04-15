@@ -14,6 +14,20 @@ export const AboutContainer = styled.div`
 
   .merchant {
     margin-top: -4rem;
+
+    &__images {
+        display: flex;
+        gap: 2rem;
+        justify-content : center;
+        align-items : center;
+        padding : 2rem;
+
+        img {
+            width : 23rem;
+            border: solid 2px #D2AC47;
+            border-radius : 0.5rem;
+        }
+    }
   }
 `;
 
