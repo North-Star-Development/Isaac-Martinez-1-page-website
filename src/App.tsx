@@ -1,4 +1,5 @@
 // importing components that makes up the app.
+import About from "./components/About"
 import Services from "./components/Services"
 import Splash from "./components/Splash"
 
@@ -10,6 +11,7 @@ function App() {
     <>
      <Splash/>
      <Services/>
+     <About/>
     </>
   )
 }
