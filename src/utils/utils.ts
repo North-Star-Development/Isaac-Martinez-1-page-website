@@ -3,6 +3,11 @@ interface DetailsType {
     header : string,
     paragraph : string
 }
+
+interface ClientsType {
+    name : string,
+    testimony : string
+}
 /// paragraph details
 export const paragraphDetails : Array<DetailsType> = [
     {
@@ -25,4 +30,20 @@ export const paragraphDetails : Array<DetailsType> = [
         header : "5.  Support local business:",
         paragraph : "By encouraging cash transactions, you're supporting the local economy and fostering a sense of community among your patrons."
      }
+]
+
+// client details 
+export const clientDetails : Array<ClientsType> = [
+    {
+      name : "Taylor Anderson",
+      testimony : "Isaac is very great to work with. Very professional and goes the extra mile for his clients."
+    },
+    {
+      name : "Bailey Thomson",
+      testimony : "I will use Isaac again in future projects. I liked the personal touch that he provided     ... Professional, thorough, supportive and highly reliable."
+    },
+    {
+      name : "Bell Cooper",
+      testimony : "Isaac provided ongoing support beyond our engagement. If i ever need a change  or something minor added, Isaac is there     to assist."
+    }
 ]
