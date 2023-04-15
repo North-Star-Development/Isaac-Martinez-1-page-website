@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ServicesContainer = styled.div`
   padding: 4rem 3rem;
-  background-color: rgba(0, 0, 0, 0.012);
+  background-color: #fffcf4;
   box-sizing: border-box;
 
   @media screen and (max-width: 1000px) {

@@ -38,7 +38,7 @@ export const ContactOneImage = styled.img`
 export const ContactOneText = styled.span`
   display: block;
   margin-left: 6rem;
-  color: white;
+  color: whitesmoke;
   font-size: 1.3rem;
   font-weight: 600;
   width: 80%;

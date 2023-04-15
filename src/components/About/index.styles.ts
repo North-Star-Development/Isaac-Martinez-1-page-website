@@ -2,14 +2,14 @@ import styled from "styled-components";
 
 export const AboutContainer = styled.div`
   background-color: #fffcf4;
-  padding: 4rem 3.5rem;
+  padding: 4rem 3.5rem 1rem;
 
   @media screen and (max-width: 861px) {
-    padding: 4rem 2.5rem;
+    padding: 4rem 2.5rem 1rem;
   }
 
   @media screen and (max-width: 373px) {
-    padding: 4rem 1.5rem;
+    padding: 4rem 1.5rem 1rem;
   }
 
   .merchant {
