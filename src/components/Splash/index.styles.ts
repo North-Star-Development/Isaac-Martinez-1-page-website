@@ -48,6 +48,7 @@ export const SplashText = styled.span`
 
   span:nth-child(1) {
     font-size : 1.7rem;
+  
     .wave {
         animation-name: ${waveAnimation};  /* Refers to the name of your @keyframes element below */
         animation-duration: 2.5s;        /* Change to speed up or slow down */
@@ -64,7 +65,7 @@ export const SplashText = styled.span`
             whitesmoke 80%,
             #FFD700 100%
     );   
-    font-size : 1.7rem;
+    font-size : 1.8rem;
     background-size: auto auto;
     background-clip: border-box;
     background-size: 200% auto; 
