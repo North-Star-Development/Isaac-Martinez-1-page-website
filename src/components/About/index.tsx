@@ -1,4 +1,5 @@
 import { paragraphDetails } from "../../utils/utils";
+import Carousel from "../Carousel";
 import MerchantContact from "../Merchant";
 import {
     AboutBoxOne,
@@ -40,7 +41,7 @@ import {
             <h2>Good Bye Credit Card Processing Fees</h2>
             <p> In today's fast-paced business environment, merchants like yourself are constantly looking for ways to reduce costs, improve cash flow, and 
                 create a seamless experience for customers. The Cash Discount Program is specifically designed to help you achieve these goals.</p>
-             {/* <div> images carousel</div> */}
+             <Carousel/>
              <div className="second">
                <h2> Here are the top benefits of implementing our Cash Discount Program:</h2>
                 <ParagraphDetails>
