@@ -4,6 +4,7 @@ export const FormContainer = styled.div`
   padding: 3.5rem 4.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background-color: #fffcf4;
 
   @media screen and (max-width: 903px) {
     padding: 3.5rem 4rem;
@@ -118,6 +119,7 @@ export const FormRightInput = styled.input`
   padding: 0.5rem 0;
   font-size: 0.9rem;
   padding-left: 0.1rem;
+  background-color: #fffcf4;
 
   &:focus {
     border-bottom: 1px solid #d2ac47;
@@ -134,6 +136,7 @@ export const FormRightTextarea = styled.textarea`
   border-bottom: 1px solid #00000081;
   font-size: 0.9rem;
   padding-left: 0.1rem;
+  background-color: #fffcf4;
   &:focus {
     border-bottom: 1px solid #d2ac47;
   }

@@ -36,6 +36,7 @@ import {
               placeholder="What is your Email Address?"
             />
             <FormRightTextarea
+            rows={6}
               placeholder="Write your message?"
             ></FormRightTextarea>
             <FormRightButton>Send a message</FormRightButton>
