@@ -1,10 +1,12 @@
 import { useState, useEffect } from 'react';
 import { CarouselContainer } from './index.styles';
-
+import { useWindowSize } from '@react-hook/window-size';
 
 
 
 const Carousel : () => JSX.Element = () => {
+  const [width]  = useWindowSize();
+
     // images
     const images : string[] = [
         '/assets/pngs/merchant1.png',
@@ -34,7 +36,7 @@ const Carousel : () => JSX.Element = () => {
     <CarouselContainer>
       <div className="carousel-images">
        <img alt='prev' onClick={handleClickPrev} className='btn' src="/assets/pngs/arrowleft.png"/>
-       {[...images, ...images, ...images].slice(currentIndex, currentIndex + 3).map((image, index) => (
+       {[...images, ...images, ...images].slice(currentIndex, width > 999 ? currentIndex + 3 : width > 485 ?  currentIndex + 2 :  currentIndex + 1).map((image, index) => (
           <img key={index} src={image} alt={`Image ${index}`} className={`imgs`} />
         ))}
        <img className='btn' alt='prev' onClick={handleClickNext} src="/assets/pngs/arrow-right.png"/>
