@@ -45,7 +45,7 @@ import {
                     <ServiceBoxLowerImg src="/assets/pngs/sack.png" />
                     </ServiceBoxLower>
           </ServiceBox>
-          <ServiceBox>
+          <ServiceBox className="last">
             <ServiceBoxUpper>
               <ServiceBoxUpperHeader>Financial Planning</ServiceBoxUpperHeader>
               <ServiceBoxUpperText>

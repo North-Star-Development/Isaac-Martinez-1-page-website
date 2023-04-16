@@ -1,6 +1,6 @@
 import { paragraphDetails } from "../../utils/utils";
 import Carousel from "../Carousel";
-import MerchantContact from "../Merchant";
+
 import {
     AboutBoxOne,
     AboutContainer,
@@ -27,7 +27,7 @@ import {
           <AboutTextSide>
             <AboutText>About</AboutText>
             <AboutHeader>
-              I help you align your goals and dreams with your values
+              We help you align your goals and dreams with your values
             </AboutHeader>
   
             <AboutSmallText>
