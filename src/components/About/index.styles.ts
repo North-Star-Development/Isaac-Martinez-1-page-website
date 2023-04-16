@@ -5,11 +5,11 @@ export const AboutContainer = styled.div`
   padding: 4rem 3.5rem 1rem;
 
   @media screen and (max-width: 861px) {
-    padding: 4rem 2.5rem 1rem;
+    padding: 2rem 2.5rem 1rem;
   }
 
-  @media screen and (max-width: 373px) {
-    padding: 4rem 1.5rem 1rem;
+  @media screen and (max-width: 400px) {
+    padding: 2rem 1.2rem 1rem;
   }
 
   .merchant {
@@ -42,7 +42,7 @@ export const AboutBoxOne = styled.div`
   }
   @media screen and (max-width: 673px) {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin-bottom: 2rem;
   }
 `;
@@ -54,6 +54,8 @@ export const AboutText = styled.span`
     color: #d2ac47;
     font-size: 1rem;
     font-weight: 700;
+
+   
 `;
 
 export const AboutTextSide = styled.div`
@@ -72,6 +74,13 @@ export const AboutImageSide = styled.div`
 
 export const AboutImage = styled.img`
   max-width: 70%;
+
+  @media screen and (max-width : 1100px) {
+    max-width : 80%;
+  }
+  @media screen and (max-width : 450px) {
+    max-width : 100%
+  }
 `;
 
 export const AboutHeader = styled.span`
@@ -95,7 +104,8 @@ export const AboutHeader = styled.span`
   }
 
   @media screen and (max-width: 737px) {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    letter-spacing : -0.09rem;
   }
 
   @media screen and (max-width: 673px) {
