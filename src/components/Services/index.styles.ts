@@ -49,7 +49,7 @@ export const ServiceBoxContainer = styled.div`
   gap: 2rem;
 
   @media screen and (max-width: 971px) {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
   @media screen and (max-width: 649px) {
     grid-template-columns: 1fr;
@@ -60,8 +60,9 @@ export const ServiceBox = styled.div`
   display: flex;
   flex-direction: column;
   border-radius: 15px;
-
   box-shadow: 0px 13px 17px rgba(0, 0, 0, 0.088);
+
+
 `;
 
 export const ServiceBoxUpper = styled.div`

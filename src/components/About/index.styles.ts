@@ -211,6 +211,30 @@ export const AboutDetails = styled.div`
         margin-bottom: 1rem;
         letter-spacing : -0.05rem;
         margin : auto;
+
+        @media screen and (max-width: 949px) {
+          font-size: 1.6rem;
+        }
+      
+        @media screen and (max-width: 739px) {
+          margin-bottom: 0.5rem;
+          font-size: 1.6rem;
+        }
+      
+        @media screen and (max-width: 737px) {
+          font-size: 1.6rem;
+          letter-spacing : -0.09rem;
+        }
+      
+        @media screen and (max-width: 673px) {
+          font-size: 1.5rem;
+          margin-bottom: 1rem;
+        }
+      
+        @media screen and (max-width: 425px) {
+          font-size: 1.7rem;
+          margin-bottom: 0.5rem;
+        }
         }
       
     }
@@ -227,30 +251,53 @@ export const ParagraphDetails = styled.div`
         gap : 2rem;
         padding : 1rem 0rem;
 
+        @media screen and (max-width : 682px) {
+          grid-template-columns : 1fr;
+        }
+
         .each {
           background-color: rgb(242 230 202);
           padding : 0.5rem 1rem;
           border-radius : 0.5rem;
+          width : 32rem;
+          display : flex;
+          justify-content : left;
+          flex-direction : column;
+
+          @media screen and (max-width : 1125px) {
+            width : unset;
+          }
+          @media screen and (max-width : 682px) {
+             width : 28rem;
+          }
+
+          @media screen and (max-width : 500px) {
+            width : unset;
+          }
+          
+
+          p {
+            width : 60%;
+            font-weight: 200;
+            line-height: 130%;
+            inline-size: unset;
+            overflow-wrap: unset;
+            margin: unset;
+            padding : unset;
+
+            
+          }    
+      
         }
 
         h3 {
-        display: block;
         word-spacing: 5px;
         font-size: 1rem;
         font-weight: 600;
         margin-bottom: 1rem;
         letter-spacing : -0.05rem;
-        margin : auto;
+        
        }
-
-       p {
-        display: block;
-        font-weight: 200;
-        line-height: 130%;
-        inline-size: 30rem;
-        overflow-wrap: break-word;
-        margin: auto;
-        }
      }
 
      
