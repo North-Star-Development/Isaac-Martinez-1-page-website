@@ -30,6 +30,19 @@ export const SplashContainer = styled.div`
   position: relative;
   width : 100%;
   height : 30rem;
+
+  .Typewriter {
+    display: inline-block;
+    justify-content : center;
+    align-items : center;
+    padding : 0rem 0.5rem;
+
+    span:nth-child(1){
+      font-size: 3rem;
+
+    }
+  }
+
 `;
 
 // splash text container styles
@@ -37,6 +50,7 @@ export const SplashTextContainer = styled.div`
   display : flex;
   flex-direction : center;
   justify-content : center;
+  width : 100%;
 `
 
 // splash text styles
@@ -47,6 +61,7 @@ export const SplashText = styled.span`
   margin: auto;
   font-weight: 700;
   padding: 4.5rem 0 6rem 0;
+  width : 50rem;
 
   span:nth-child(1) {
     font-size : 1.7rem;
