@@ -55,6 +55,10 @@ export const SplashContainer = styled.div`
     
       }
     }
+    span:nth-child(2) {
+      background: gold;
+      color : gold;
+    }
   }
 
 `;
