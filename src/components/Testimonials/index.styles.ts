@@ -24,6 +24,26 @@ export const TestimonialsContainer = styled.div`
             margin-bottom: 1rem;
             letter-spacing : -0.15rem;
             margin : auto;
+
+        
+          
+            @media screen and (max-width: 580px) {
+              font-size: 1.7rem;
+              margin-bottom: 0.5rem;
+            }
+            @media screen and (max-width: 470px) {
+              font-size: 1.5rem;
+              margin-bottom: 0.5rem;
+            }
+            @media screen and (max-width : 373px) {
+              font-size: 1.5rem;
+              margin-bottom: 0.5rem;
+            }
+            @media screen and (max-width : 355px) {
+              font-size: 1.2rem;
+              letter-spacing : -0.08rem;
+              margin-bottom: 0.5rem;
+            }
         }
       p {
           display: block;
@@ -39,10 +59,25 @@ export const TestimonialsContainer = styled.div`
         gap: 2rem;
         padding : 2rem 0rem;
 
+        @media screen and (max-width : 998px) {
+          gap: 1rem;
+        }
+
+        @media screen and (max-width : 960px) {
+          display : grid;
+          grid-template-columns: 1fr 1fr;
+        }
+
+        @media screen and (max-width : 648px) {
+          grid-template-columns : 1fr;
+        }
+
         .client {
             width : 19rem;
      
-
+           @media screen and (max-width : 326px) {
+            width : 16rem;
+           }
             .each_{
               height : 12rem;
               position: relative;
@@ -58,6 +93,9 @@ export const TestimonialsContainer = styled.div`
                 position: absolute;
                 width : 4rem;
                 top: -2.5rem;
+                @media screen and (max-width : 326px) {
+                  width : 3.5rem;
+                 }
               }
               h3 {
                 display: block;
