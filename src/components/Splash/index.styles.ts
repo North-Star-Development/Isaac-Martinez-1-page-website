@@ -39,7 +39,21 @@ export const SplashContainer = styled.div`
 
     span:nth-child(1){
       font-size: 3rem;
+      font-weight: 700;
 
+      @media screen and (max-width : 906px) and (min-width: 824px) {
+        font-size : 2.5rem;
+      }
+      @media screen and (max-width : 824px) {
+        font-size: 2rem;
+      }
+      @media screen and (max-width : 538px) {
+        font-size: 1.5rem;
+      }
+      @media screen and (max-width : 394px) {
+        font-size: 1.2rem;
+    
+      }
     }
   }
 
@@ -63,9 +77,22 @@ export const SplashText = styled.span`
   padding: 4.5rem 0 6rem 0;
   width : 50rem;
 
+
+
+  
   span:nth-child(1) {
     font-size : 1.7rem;
+
+    @media screen and (max-width : 824px) {
+      font-size : 2rem;
+    }
   
+    @media screen and (max-width : 538px) {
+      font-size: 2rem;
+    }
+    @media screen and (max-width : 430px) {
+      font-size: 2rem;
+    }
     .wave {
         animation-name: ${waveAnimation};  /* Refers to the name of your @keyframes element below */
         animation-duration: 2.5s;        /* Change to speed up or slow down */
@@ -92,17 +119,57 @@ export const SplashText = styled.span`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: ${gradient} 2s linear infinite;
+
+    @media screen and (max-width : 824px) {
+      font-size : 2rem;
+    }
+
+    @media screen and (max-width : 538px) {
+      font-size: 2rem;
+    }
+    @media screen and (max-width : 430px) {
+      font-size: 2rem;
+    }
     }
   }
   span:nth-child(2) {
     font-size : 3rem;
+
+    @media screen and (max-width : 906px) {
+      font-size : 2.5rem;
+    }
+    @media screen and (max-width : 824px) {
+      font-size: 2rem;
+    }
+    @media screen and (max-width : 538px) {
+      font-size: 1.5rem;
+    }
+    @media screen and (max-width : 394px) {
+      font-size: 1.2rem;
+    }
+    
+
   }
   @media screen and (max-width: 903px) {
     width: 80%;
   }
-  @media screen and (max-width: 791px) {
-    font-size: 3rem;
+   @media screen and (max-width : 640px) {
+    width : 90%;
+   }
+
+   @media screen and (max-width : 568px) {
+    width : 95%;
+   }
+   @media screen and (max-width : 538px) {
+    width : 90%;
   }
+  @media screen and (max-width : 430px) {
+    width : 96%;
+  }
+  @media screen and (max-width : 335px) {
+    width : 99%;
+  }
+  
 `;
 
 // input container styles
