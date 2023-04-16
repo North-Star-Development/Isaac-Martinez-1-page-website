@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { CarouselContainer } from './index.styles';
 
 
 
@@ -17,7 +18,7 @@ const Carousel : () => JSX.Element = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((currentIndex + 1) % images.length);
-    }, 1000);
+    }, 2000);
     return () => clearInterval(interval);
   }, [currentIndex, images.length]);
 
@@ -30,12 +31,15 @@ const Carousel : () => JSX.Element = () => {
   };
 
   return (
-    <div className="carousel-container">
+    <CarouselContainer>
       <div className="carousel-images">
-        {images.slice(currentIndex, currentIndex + 3).map((image, index) => (
-          <img key={index} src={image} alt={`Image ${index}`} />
+       <img alt='prev' onClick={handleClickPrev} className='btn' src="/assets/pngs/arrowleft.png"/>
+       {[...images, ...images, ...images].slice(currentIndex, currentIndex + 3).map((image, index) => (
+          <img key={index} src={image} alt={`Image ${index}`} className={`imgs`} />
         ))}
+       <img className='btn' alt='prev' onClick={handleClickNext} src="/assets/pngs/arrow-right.png"/>
       </div>
+  
       <div className="carousel-buttons">
         {images.map((image, index) => (
           <button
@@ -43,15 +47,11 @@ const Carousel : () => JSX.Element = () => {
             onClick={() => setCurrentIndex(index)}
             className={currentIndex === index ? 'active' : ''}
           >
-            {index + 1}
           </button>
         ))}
       </div>
-      <div className="carousel-arrows">
-        <button onClick={handleClickPrev}>&lt;</button>
-        <button onClick={handleClickNext}>&gt;</button>
-      </div>
-    </div>
+    
+    </CarouselContainer>
   );
 };
 
