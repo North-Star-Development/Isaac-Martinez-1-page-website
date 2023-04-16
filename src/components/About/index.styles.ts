@@ -157,6 +157,30 @@ export const AboutDetails = styled.div`
         margin-bottom: 1rem;
         letter-spacing : -0.15rem;
         margin : auto;
+
+        @media screen and (max-width: 949px) {
+          font-size: 1.6rem;
+        }
+      
+        @media screen and (max-width: 739px) {
+          margin-bottom: 0.5rem;
+          font-size: 1.6rem;
+        }
+      
+        @media screen and (max-width: 737px) {
+          font-size: 1.6rem;
+          letter-spacing : -0.09rem;
+        }
+      
+        @media screen and (max-width: 673px) {
+          font-size: 1.5rem;
+          margin-bottom: 1rem;
+        }
+      
+        @media screen and (max-width: 425px) {
+          font-size: 1.7rem;
+          margin-bottom: 0.5rem;
+        }
     }
 
     p {
@@ -168,6 +192,10 @@ export const AboutDetails = styled.div`
         overflow-wrap: break-word;
         margin: auto;
         padding : 1rem 0rem;
+
+        @media screen and (max-width : 1066px) {
+          inline-size: unset;
+        }
     }
 
     .second {
