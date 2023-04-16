@@ -4,8 +4,8 @@ export const AboutContainer = styled.div`
   background-color: #fffcf4;
   padding: 4rem 3.5rem 1rem;
 
-  @media screen and (max-width: 861px) {
-    padding: 2rem 2.5rem 1rem;
+  @media screen and (max-width: 861px) and (min-width : 400px) {
+    padding: 2rem 1rem 1rem;
   }
 
   @media screen and (max-width: 400px) {
@@ -15,6 +15,13 @@ export const AboutContainer = styled.div`
   .merchant {
     margin-top: -4rem;
 
+    h2 {
+      @media screen and (max-width: 425px) {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+      }
+    }
+
     &__images {
         display: flex;
         gap: 2rem;
@@ -22,10 +29,38 @@ export const AboutContainer = styled.div`
         align-items : center;
         padding : 2rem;
 
+
+
+        @media screen and (max-width : 730px) {
+         gap : 1rem;
+        }
+        @media screen and (max-width : 668px) {
+          gap : 0.5rem;
+        }
+
+        @media screen and (max-width : 508px) {
+          flex-direction : column;
+          gap: 1rem;
+        }
         img {
             width : 23rem;
             border: solid 2px #D2AC47;
             border-radius : 0.5rem;
+
+            @media screen and (max-width: 787px) {
+              width : 20rem;
+            }
+            @media screen and (max-width : 666px) {
+              width : 17rem;
+            }
+
+            @media screen and (max-width : 573px) {
+              width : 15rem;
+            }
+
+            @media screen and (max-width : 508px) {
+              width : 24rem;
+            }
         }
     }
   }
@@ -114,7 +149,11 @@ export const AboutHeader = styled.span`
   }
 
   @media screen and (max-width: 425px) {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  @media screen and (max-width : 373px) {
+    font-size: 1.5rem;
     margin-bottom: 0.5rem;
   }
 `;
@@ -181,6 +220,10 @@ export const AboutDetails = styled.div`
           font-size: 1.7rem;
           margin-bottom: 0.5rem;
         }
+        @media screen and (max-width : 373px) {
+          font-size: 1.5rem;
+          margin-bottom: 0.5rem;
+        }
     }
 
     p {
@@ -233,6 +276,10 @@ export const AboutDetails = styled.div`
       
         @media screen and (max-width: 425px) {
           font-size: 1.7rem;
+          margin-bottom: 0.5rem;
+        }
+        @media screen and (max-width : 373px) {
+          font-size: 1.5rem;
           margin-bottom: 0.5rem;
         }
         }
