@@ -24,7 +24,7 @@ import {
             height={120}
             width={120}
           />
-          <ContactOneText>Merchant Agreement Form</ContactOneText>
+          <ContactOneText className="merch">Merchant Agreement Form</ContactOneText>
         </ContactOne>
       </ContactContainer>
     );
