@@ -28,6 +28,8 @@ const waveAnimation = keyframes`
 export const SplashContainer = styled.div`
   background-image: url("/assets/pngs/background.png");
   position: relative;
+  width : 100%;
+  height : 30rem;
 `;
 
 // splash text container styles
