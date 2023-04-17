@@ -135,7 +135,7 @@ export const FormRightShoot = styled.span`
   }
 `;
 
-export const FormRightContainer = styled.div`
+export const FormRightContainer = styled.form`
   display: flex;
   flex-direction: column;
   gap: 1rem;

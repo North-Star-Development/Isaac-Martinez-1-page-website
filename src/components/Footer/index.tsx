@@ -13,7 +13,9 @@ import {
     return (
       <FooterContainer>
         <FooterLogoContainer>
+        <Link to="home" smooth={true} duration={500}>
           <FooterLogo src="/assets/pngs/logo.png" alt="logo" height={80} />
+          </Link>
         </FooterLogoContainer>
   
         <FooterLinks>
@@ -34,7 +36,8 @@ import {
         </FooterLinks>
   
         <FooterSocials>
-          <FooterSocial src="/assets/pngs/InstagramLogo.png" alt="insta" />
+        {/* target="_blank" */}
+          <FooterSocial src="/assets/pngs/InstagramLogo.png" alt="insta"  />
           <FooterSocial src="/assets/pngs/TwitterLogo.png" alt="Twitter" />
           <FooterSocial src="/assets/pngs/LinkedinLogo.png" alt="LinkedIn" />
         </FooterSocials>
