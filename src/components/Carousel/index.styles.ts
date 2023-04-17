@@ -29,6 +29,7 @@ export const CarouselContainer = styled.div`
     display : flex;
     position : relative;
     gap: 1rem;
+    transition: transform 0.5s ease-in-out;
 
     .imgs {
         width: 19rem;

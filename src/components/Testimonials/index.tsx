@@ -6,7 +6,7 @@ import { TestimonialsContainer } from "./index.styles";
 
  const Testimonials = () => {
     return (
-         <TestimonialsContainer>
+         <TestimonialsContainer id="testimonials">
             <div className="testimonials">
                 <p className="testimonials">testimonials</p>
                 <h2> What our Top Clients are saying?</h2>

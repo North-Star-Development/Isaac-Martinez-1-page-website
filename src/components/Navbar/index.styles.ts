@@ -71,7 +71,7 @@ export const NavbarLink = styled.a`
   height: 100%;
   display: flex;
   align-items: center;
-  padding: 0 0.5rem;
+  padding: 2rem 0.5rem 2.7rem;
   cursor: pointer;
 
   &:hover {
@@ -138,7 +138,7 @@ export const Overlay = styled.div<LinePropsType>`
  export const OverlayMenu = styled.ul<LinePropsType>`
   list-style: none;
   position: absolute;
-  left: 55%;
+  left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 

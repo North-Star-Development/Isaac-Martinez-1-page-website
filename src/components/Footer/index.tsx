@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import {
     FooterContainer,
     FooterLink,
@@ -17,9 +18,19 @@ import {
   
         <FooterLinks>
           <FooterLink>Home</FooterLink>
-          <FooterLink>About</FooterLink>
-          <FooterLink>Services</FooterLink>
-          <FooterLink>Contact Us</FooterLink>
+          <Link to="about" smooth={true} duration={500}>
+            <FooterLink>
+            About 
+            </FooterLink>
+            </Link>
+            <Link to="services" smooth={true} duration={500}>
+          <FooterLink>
+            Services
+          </FooterLink>
+          </Link>
+          <Link to="services" smooth={true} duration={500}>
+           <FooterLink>Contact Us</FooterLink>
+          </Link>
         </FooterLinks>
   
         <FooterSocials>

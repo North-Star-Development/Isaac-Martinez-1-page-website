@@ -60,12 +60,13 @@ export const FooterLink = styled.a`
 
   display: flex;
   align-items: center;
-  padding: 0 0.3rem;
+  padding: 0 0.3rem !important;
   cursor: pointer;
 
   &:hover {
     color: #d2ac47;
     border-bottom: 3px solid #d2ac47;
+    padding: 0 0.3rem !important;
   }
 
   @media screen and (max-width: 790px) {
