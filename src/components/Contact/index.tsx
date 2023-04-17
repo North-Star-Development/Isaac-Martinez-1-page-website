@@ -22,7 +22,7 @@ import {
             <FormLeftImage src="/assets/pngs/profile.png" alt="pic" />
           </FormLeftImageContainer>
           <FormLeftName>Isaac Martinez</FormLeftName>
-          <FormLeftRole>CEO / Financial Advisor / Consultant</FormLeftRole>
+          <FormLeftRole>CEO / Financial Advisor</FormLeftRole>
         </FormLeft>
   
         <FormRight>
@@ -36,7 +36,6 @@ import {
               placeholder="What is your Email Address?"
             />
             <FormRightTextarea
-            rows={6}
               placeholder="Write your message?"
             ></FormRightTextarea>
             <FormRightButton>Send a message</FormRightButton>
