@@ -37,7 +37,10 @@ import {
   
         <FooterSocials>
         {/* target="_blank" */}
+          <a target={"_blank"} href="https://instagram.com/real.momentum?igshid=YmMyMTA2M2Y=">
           <FooterSocial src="/assets/pngs/InstagramLogo.png" alt="insta"  />
+          </a>
+       
           <FooterSocial src="/assets/pngs/TwitterLogo.png" alt="Twitter" />
           <FooterSocial src="/assets/pngs/LinkedinLogo.png" alt="LinkedIn" />
         </FooterSocials>
