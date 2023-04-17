@@ -125,6 +125,7 @@ export const Overlay = styled.div<LinePropsType>`
   position: fixed;
   height: ${props => (props.open ? "100%" : 0)};
   display :  ${props => (!props.open && "unset")};
+ 
   width: 100vw;
   background: #1c2022;
   transition: height 0.4s ease-in-out;
@@ -142,10 +143,13 @@ export const Overlay = styled.div<LinePropsType>`
   top: 50%;
   transform: translate(-50%, -50%);
 
+
   li {
     opacity: ${props => (props.open ? 1 : 0)};
     display : ${props => (!props.open && "unset")};
+    padding : ${props => (!props.open && "0.1rem")};
     font-size: 25px;
+    font-size : ${props => (!props.open && "1.1rem")};
     margin: 50px 0px;
     transition: opacity 0.4s ease-in-out;
   }

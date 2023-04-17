@@ -29,16 +29,27 @@ import {
           <FormRightConsult>Need Consulting?</FormRightConsult>
           <FormRightShoot>Shoot a message!</FormRightShoot>
   
-          <FormRightContainer>
-            <FormRightInput type="text" placeholder="What is your name?" />
+          <FormRightContainer   
+             action="https://formspree.io/f/xrgdawav"
+             method="POST"
+             >
+            <FormRightInput 
+              type="text" 
+              placeholder="What is your name?"
+               name="firstName"
+               required/>
             <FormRightInput
               type="text"
               placeholder="What is your Email Address?"
+              name="email"
+              required
             />
             <FormRightTextarea
               placeholder="Write your message?"
+              name="message"
+              required
             ></FormRightTextarea>
-            <FormRightButton>Send a message</FormRightButton>
+            <FormRightButton type="submit">Send a message</FormRightButton>
           </FormRightContainer>
         </FormRight>
       </FormContainer>

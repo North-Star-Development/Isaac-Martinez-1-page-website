@@ -26,7 +26,7 @@ const Splash = () => {
         
         <Typewriter
           options={{
-            strings: [' business services.', 'merchant set up.', "consultancy services."],
+            strings: ['business services.', 'merchant set up.', "consultancy services."],
             autoStart: true,
             loop: true,
           }}
@@ -35,9 +35,11 @@ const Splash = () => {
      </SplashTextContainer>
      
 
-      <InputContainer>
-        <SplashInput type="text" placeholder="youremail@domain.com" />
-        <SplashInputButton>Get Started</SplashInputButton>
+      <InputContainer  
+        action="https://formspree.io/f/myylbjdp"
+        method="POST">
+        <SplashInput type="text" name="email" placeholder="youremail@domain.com" required/>
+        <SplashInputButton type="submit">Get Started</SplashInputButton>
       </InputContainer>
     </SplashContainer>
   );

@@ -177,7 +177,7 @@ export const SplashText = styled.span`
 `;
 
 // input container styles
-export const InputContainer = styled.div`
+export const InputContainer = styled.form`
   position: absolute;
   width: 45rem;
   bottom: -1.2rem;
