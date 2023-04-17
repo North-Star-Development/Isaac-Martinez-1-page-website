@@ -8,8 +8,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: inherit;
   }
   html, 
-  body {
-    height:100%; 
+  body { 
     padding:0; 
     margin:0; 
     width:100%;

@@ -19,26 +19,26 @@ const Navbar = () => {
       <NavbarLogo src="assets/pngs/logo.png" alt="logo" height={80} />
       <NavbarLogo className="mobile" src="assets/pngs/mobile-logo.png" alt="mobile logo" />
       <NavbarLinks>
+      <Link to="home" smooth={true} duration={500}>
         <NavbarLink>
-          <Link to="home" smooth={true} duration={500}>
             Home
-          </Link>
         </NavbarLink>
+        </Link>
+        <Link to="about" smooth={true} duration={500}>
         <NavbarLink>
-          <Link to="about" smooth={true} duration={500}>
             About
-          </Link>
         </NavbarLink>
+        </Link>
+        <Link to="services" smooth={true} duration={500}>
         <NavbarLink>
-          <Link to="services" smooth={true} duration={500}>
             Services
-          </Link>
         </NavbarLink>
+        </Link>
+        <Link to="contact" smooth={true} duration={1000}>
         <NavbarLink>
-          <Link to="contact" smooth={true} duration={500}>
             Contact
-          </Link>
         </NavbarLink>
+        </Link>
       </NavbarLinks>
       <NavIcon onClick={() => toggleNav(!toggle)}>
           <Line open={toggle} />
@@ -50,29 +50,39 @@ const Navbar = () => {
        <Overlay open={toggle}>
        <OverlayMenu open={toggle}>
          <Item>
-           <LinkItem target="#" href="https://www.instagram.com/igor_dumencic/">
+         <Link to="home" smooth={true} duration={500} onClick={() => toggleNav(!toggle)}>
+           <LinkItem>
              Home
            </LinkItem>
+           </Link>
          </Item>
          <Item>
-           <LinkItem target="#" href="https://www.behance.net/igordumencic">
+         <Link to="about" smooth={true} duration={500} onClick={() => toggleNav(!toggle)}>
+           <LinkItem>
             About
            </LinkItem>
+          </Link>
          </Item>
          <Item>
-           <LinkItem target="#" href="https://github.com/Igor178">
+         <Link to="services" smooth={true} duration={500} onClick={() => toggleNav(!toggle)}>
+           <LinkItem>
              Services
            </LinkItem>
+          </Link>
          </Item>
          <Item>
-           <LinkItem target="#" href="https://github.com/Igor178">
+         <Link to="merchant" smooth={true} duration={500} onClick={() => toggleNav(!toggle)}>
+           <LinkItem>
              Merchant
            </LinkItem>
+          </Link>
          </Item>
          <Item>
-           <LinkItem target="#" href="https://github.com/Igor178">
+         <Link to="contact" smooth={true} duration={500} onClick={() => toggleNav(!toggle)}>
+           <LinkItem>
              Contact
            </LinkItem>
+          </Link>
          </Item>
        </OverlayMenu>
        </Overlay>

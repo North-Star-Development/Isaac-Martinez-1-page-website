@@ -60,7 +60,7 @@ import {
                 </ParagraphDetails>
              </div>
         </AboutDetails>
-        <AboutDetails className="merchant">
+        <AboutDetails className="merchant" id="merchant">
             <h2> Stop Paying Merchant Fees!</h2>
         
             <p> For a limited time, we are offering a special promotion for new members of our Cash Discount Program. Sign up within the next 30 days and
