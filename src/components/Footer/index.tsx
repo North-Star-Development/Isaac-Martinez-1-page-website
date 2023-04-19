@@ -19,7 +19,9 @@ import {
         </FooterLogoContainer>
   
         <FooterLinks>
+        <Link to="home" smooth={true} duration={500}>
           <FooterLink>Home</FooterLink>
+         </Link>
           <Link to="about" smooth={true} duration={500}>
             <FooterLink>
             About 
@@ -36,14 +38,14 @@ import {
         </FooterLinks>
   
         <FooterSocials>
-        {/* target="_blank" */}
-          <a target={"_blank"} href="https://instagram.com/real.momentum?igshid=YmMyMTA2M2Y=">
+          <a target={"_blank"} href="https://www.instagram.com/real.momentum/">
           <FooterSocial src="/assets/pngs/InstagramLogo.png" alt="insta"  />
           </a>
-       
+           <a target={"_blank"} href="https://www.facebook.com/profile.php?id=100091704964091">
           <FooterSocial src="/assets/pngs/TwitterLogo.png" alt="Twitter" />
-          <FooterSocial src="/assets/pngs/LinkedinLogo.png" alt="LinkedIn" />
+          </a>
         </FooterSocials>
+
       </FooterContainer>
     );
   };
