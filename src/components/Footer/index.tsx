@@ -42,7 +42,7 @@ import {
           <FooterSocial src="/assets/pngs/InstagramLogo.png" alt="insta"  />
           </a>
            <a target={"_blank"} href="https://www.facebook.com/profile.php?id=100091704964091">
-          <FooterSocial src="/assets/pngs/TwitterLogo.png" alt="Twitter" />
+          <FooterSocial src="/assets/pngs/facebook.png" alt="Twitter" />
           </a>
         </FooterSocials>
 
