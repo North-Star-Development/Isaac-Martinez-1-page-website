@@ -17,10 +17,15 @@ export const ContactContainer = styled.div`
      @media screen and (max-width : 682px) {
       margin-left: 3rem;
      }
+
+     @media screen and (max-width : 464px) {
+      margin-left: 1rem;
+     }
+
         
      }
 
-     @media screen and (max-width : 540px) {
+     @media screen and (max-width : 544px) {
      flex-direction : column;
      gap: 1rem;
      }
@@ -39,6 +44,7 @@ export const ContactOne = styled.div`
 
   @media screen and (max-width : 690px) {
     padding : 1rem 1rem 1rem 0;
+    
     width : 13rem;
   }
 
@@ -87,7 +93,7 @@ export const ContactOneText = styled.span`
 
   }
   @media screen and (max-width: 682px) {
-    margin-left: 1.4rem;
+    margin-left: 3rem;
     height : 2rem;
  
   }

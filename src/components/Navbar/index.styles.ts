@@ -164,7 +164,7 @@ export const Item = styled.li``;
 export const LinkItem = styled.a`
   color: white;
   text-decoration: none;
-
+   cursor : pointer;
   :hover {
     text-decoration: underline;
   }
