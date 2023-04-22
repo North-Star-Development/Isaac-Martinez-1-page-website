@@ -15,29 +15,15 @@ import {
     return (
       <ServicesContainer id="services">
         <ServicesText>Services</ServicesText>
-        <ServicesHowText>How We Serve You Best</ServicesHowText>
+        <ServicesHowText>Our Services</ServicesHowText>
   
         <ServiceBoxContainer>
-          <ServiceBox>
-            <ServiceBoxUpper>
-              <ServiceBoxUpperHeader>Business Services</ServiceBoxUpperHeader>
-              <ServiceBoxUpperText>
-                Analyze how an investment is likely to perform and how suitable it
-                is for a particular client.
-              </ServiceBoxUpperText>
-            </ServiceBoxUpper>
-  
-            <ServiceBoxLower>
-              <ServiceBoxLowerImg src="/assets/pngs/business.png" />
-            </ServiceBoxLower>
-          </ServiceBox>
+       
          <ServiceBox>
              <ServiceBoxUpper>
-                    <ServiceBoxUpperHeader>Merchant Services</ServiceBoxUpperHeader>
+                    <ServiceBoxUpperHeader>Merchant Solutions</ServiceBoxUpperHeader>
                     <ServiceBoxUpperText>
-                        An investment advisory practice that incorporates elements from
-                        various financial disciplines to meet the needs and goals of our
-                        clients.
+                    providing safe, dependable, and high value credit card processing service that is simple and efficient in modernizing your business
                     </ServiceBoxUpperText>
                     </ServiceBoxUpper>
         
@@ -47,10 +33,9 @@ import {
           </ServiceBox>
           <ServiceBox className="last">
             <ServiceBoxUpper>
-              <ServiceBoxUpperHeader>Financial Planning</ServiceBoxUpperHeader>
+              <ServiceBoxUpperHeader>Financial Consulting</ServiceBoxUpperHeader>
               <ServiceBoxUpperText>
-                Creating financial plans to outline the steps our clients need to
-                take to achieve their financial goals.
+              quick hassle, free, funding offer to our merchant partners
               </ServiceBoxUpperText>
             </ServiceBoxUpper>
   
@@ -58,7 +43,18 @@ import {
               <ServiceBoxLowerImg src="/assets/pngs/coin.png" />
             </ServiceBoxLower>
           </ServiceBox>
+          <ServiceBox>
+            <ServiceBoxUpper>
+              <ServiceBoxUpperHeader>Coming soon</ServiceBoxUpperHeader>
+              <ServiceBoxUpperText>
+               we will help you develop your business entity structure
+              </ServiceBoxUpperText>
+            </ServiceBoxUpper>
   
+            <ServiceBoxLower>
+              <ServiceBoxLowerImg src="/assets/pngs/business.png" />
+            </ServiceBoxLower>
+          </ServiceBox>
           
         </ServiceBoxContainer>
       </ServicesContainer>
