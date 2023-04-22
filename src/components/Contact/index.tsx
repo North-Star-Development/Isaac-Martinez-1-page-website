@@ -19,14 +19,14 @@ import {
       <FormContainer id="contact">
         <FormLeft>
           <FormLeftImageContainer>
-            <FormLeftImage src="/assets/pngs/profile.png" alt="pic" />
+            <FormLeftImage src="/assets/pngs/pic.png" alt="pic" />
           </FormLeftImageContainer>
-          <FormLeftName>Isaac Martinez</FormLeftName>
-          <FormLeftRole>CEO / Financial Advisor</FormLeftRole>
+          {/* <FormLeftName>Isaac Martinez</FormLeftName>
+          <FormLeftRole>CEO / Financial Advisor</FormLeftRole> */}
         </FormLeft>
   
         <FormRight>
-          <FormRightConsult>Need Consulting?</FormRightConsult>
+          <FormRightConsult>Get a free quote</FormRightConsult>
           <FormRightShoot>Shoot a message!</FormRightShoot>
   
           <FormRightContainer   

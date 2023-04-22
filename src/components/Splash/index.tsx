@@ -21,12 +21,13 @@ const Splash = () => {
       <Navbar />
      <SplashTextContainer>
          <SplashText>
-       <span>Hi <span className="wave">👋🏽</span><span className="name"> there,</span>  </span>
-       <span>We offer  
-        
+         {/* <span className="wave">👋🏽 </span> */}
+       <span> <span className="name">Our Business is all about yours</span>  </span>
+       <span> 
+        Lets Help you
         <Typewriter
           options={{
-            strings: ['business services.', 'merchant set up.', "consultancy services."],
+            strings: ['save.', 'build.', "save."],
             autoStart: true,
             loop: true,
           }}
@@ -35,12 +36,12 @@ const Splash = () => {
      </SplashTextContainer>
      
 
-      <InputContainer  
+      {/* <InputContainer  
         action="https://formspree.io/f/myylbjdp"
         method="POST">
         <SplashInput type="text" name="email" placeholder="youremail@domain.com" required/>
         <SplashInputButton type="submit">Get Started</SplashInputButton>
-      </InputContainer>
+      </InputContainer> */}
     </SplashContainer>
   );
 };

@@ -48,10 +48,10 @@ export const SplashContainer = styled.div`
         font-size: 2rem;
       }
       @media screen and (max-width : 538px) {
-        font-size: 1.5rem;
+        font-size: 2rem;
       }
       @media screen and (max-width : 394px) {
-        font-size: 1.2rem;
+        font-size: 1.8rem;
     
       }
     }
@@ -129,10 +129,13 @@ export const SplashText = styled.span`
     }
 
     @media screen and (max-width : 538px) {
-      font-size: 2rem;
+      font-size: 1.6rem;
     }
-    @media screen and (max-width : 430px) {
-      font-size: 2rem;
+    @media screen and (max-width : 450px) {
+      font-size: 1.35rem;
+    }
+    @media screen and (max-width : 370px) {
+      font-size : 1.2rem
     }
     }
   }
@@ -146,10 +149,10 @@ export const SplashText = styled.span`
       font-size: 2rem;
     }
     @media screen and (max-width : 538px) {
-      font-size: 1.5rem;
+      font-size: 2rem;
     }
     @media screen and (max-width : 394px) {
-      font-size: 1.2rem;
+      font-size: 1.8rem;
     }
     
 

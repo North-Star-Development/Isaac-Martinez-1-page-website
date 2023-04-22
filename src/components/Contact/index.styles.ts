@@ -88,14 +88,13 @@ export const FormLeftImage = styled.img`
   max-height: 100%;
   position: relative;
   left: 1.5rem;
-  top: 1.5rem;
-  width : 18rem;
+  width : 24rem;
 
   @media screen and (max-width : 750px) {
-    width : 15rem;
+    width : 18rem;
   }
   @media screen and (max-width : 630px) {
-    width : 20rem;
+    width : 24rem;
   }
 `;
 
