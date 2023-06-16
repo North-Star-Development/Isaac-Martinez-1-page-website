@@ -9,7 +9,7 @@ import { TestimonialsContainer } from "./index.styles";
          <TestimonialsContainer id="testimonials">
             <div className="testimonials">
                 <p className="testimonials">testimonials</p>
-                <h2> What our Top Clients are saying?</h2>
+                <h2> What our Top Clients are saying!</h2>
             </div>
             <div className="clients">
                 {

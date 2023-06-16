@@ -38,7 +38,7 @@ import {
           </AboutTextSide>
         </AboutBoxOne>
         <AboutDetails>
-            <h2>Good Bye Credit Card Processing Fees</h2>
+            <h2>Good Bye Credit Card Processing Fees!</h2>
             <p> In today's fast-paced business environment, merchants like yourself are constantly looking for ways to reduce costs, improve cash flow, and 
                 create a seamless experience for customers. The Cash Discount Program is specifically designed to help you achieve these goals.</p>
              <Carousel/>
@@ -61,7 +61,7 @@ import {
              </div>
         </AboutDetails>
         <AboutDetails className="merchant" id="merchant">
-            <h2> Stop Paying Merchant Fees!</h2>
+            <h2> Stop Paying Credit Card processing Fees!</h2>
         
             <p> For a limited time, we are offering a special promotion for new members of our Cash Discount Program. Sign up within the next 30 days and
               receive a special discount on the initial setup fee.</p>
