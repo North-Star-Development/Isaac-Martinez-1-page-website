@@ -61,7 +61,7 @@ import {
              </div>
         </AboutDetails>
         <AboutDetails className="merchant" id="merchant">
-            <h2> Stop Paying Credit Card processing Fees!and Save more! </h2>
+            <h2> Stop Paying Credit Card processing Fees! and Save more with us! </h2>
         
             <p> For a limited time, we are offering a special promotion for new members of our Cash Discount Program. Sign up within the next 30 days and
               receive a special discount on the initial setup fee.</p>
