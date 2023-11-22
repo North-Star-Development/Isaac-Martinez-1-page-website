@@ -37,8 +37,8 @@ import {
         </AboutBoxOne>
         <AboutDetails>
             <h2>Good Bye Credit Card Processing Fees! and Save More With Us!</h2>
-            <p> In the dynamic landscape of today's business environment, where merchants are continually seeking avenues to trim costs, optimize cash flow, and deliver a seamless customer experience, 
-              the Cash Discount Program stands out as a tailored solution crafted to assist you in attaining these objectives.</p>
+            <p> "In today's business landscape, our Cash Discount Program is a tailored solution for cost savings, optimized cash flow, 
+              and enhanced customer experiences."</p>
              <Carousel/>
              <div className="second">
                <h2> Here are the top benefits of implementing our Cash Discount Program!:</h2> 
