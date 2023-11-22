@@ -27,23 +27,21 @@ import {
           <AboutTextSide>
             <AboutText>About</AboutText>
             <AboutHeader>
-              We help you align your goals and dreams with your values!
+            We Understand Small Business & Provide Convenient Financing Solutions!
             </AboutHeader>
   
             <AboutSmallText>
-              Real momentum is a consulting service that helps clients develop and
-              implement strategies to achieve their goals. It is professional and
-              affordable.
+            "Real Momentum offers swift and seamless payment solutions for small businesses. Sign up today and unlock savings!"
             </AboutSmallText>
           </AboutTextSide>
         </AboutBoxOne>
         <AboutDetails>
-            <h2>Good Bye Credit Card Processing Fees!</h2>
-            <p> In today's fast-paced business environment, merchants like yourself are constantly looking for ways to reduce costs, improve cash flow, and 
-                create a seamless experience for customers. The Cash Discount Program is specifically designed to help you achieve these goals.</p>
+            <h2>Good Bye Credit Card Processing Fees! and Save More With Us!</h2>
+            <p> In the dynamic landscape of today's business environment, where merchants are continually seeking avenues to trim costs, optimize cash flow, and deliver a seamless customer experience, 
+              the Cash Discount Program stands out as a tailored solution crafted to assist you in attaining these objectives.</p>
              <Carousel/>
              <div className="second">
-               <h2> Here are the top benefits of implementing our Cash Discount Program:</h2> 
+               <h2> Here are the top benefits of implementing our Cash Discount Program!:</h2> 
                 <ParagraphDetails>
                  <div className="details">
                     {
@@ -61,10 +59,10 @@ import {
              </div>
         </AboutDetails>
         <AboutDetails className="merchant" id="merchant">
-            <h2> Stop Paying Credit Card processing Fees! and Save more with us! </h2>
+            <h2> Stop Paying Credit Card Processing Fees! and Save more with us! </h2>
         
-            <p> For a limited time, we are offering a special promotion for new members of our Cash Discount Program. Sign up within the next 30 days and
-              receive a special discount on the initial setup fee.</p>
+            <p> Take advantage of our exclusive promotion for new members joining our Cash Discount Program. 
+              Register within the next 30 days to unlock a special discount on the initial setup fee.</p>
               <div className="merchant__images">
                 <img src="/assets/pngs/img-merchant.png" alt="merchant" />
                 <img src="/assets/pngs/img-merchant2.png" alt="merchant " />
