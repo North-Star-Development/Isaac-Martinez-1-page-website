@@ -27,7 +27,7 @@ import {
           <AboutTextSide>
             <AboutText>About</AboutText>
             <AboutHeader>
-              We help you align your goals and dreams with your values
+              We help you align your goals and dreams with your values!
             </AboutHeader>
   
             <AboutSmallText>
@@ -43,7 +43,7 @@ import {
                 create a seamless experience for customers. The Cash Discount Program is specifically designed to help you achieve these goals.</p>
              <Carousel/>
              <div className="second">
-               <h2> Here are the top benefits of implementing our Cash Discount Program:</h2>
+               <h2> Here are the top benefits of implementing our Cash Discount Program:</h2> 
                 <ParagraphDetails>
                  <div className="details">
                     {
@@ -61,7 +61,7 @@ import {
              </div>
         </AboutDetails>
         <AboutDetails className="merchant" id="merchant">
-            <h2> Stop Paying Credit Card processing Fees!</h2>
+            <h2> Stop Paying Credit Card processing Fees!and Save more! </h2>
         
             <p> For a limited time, we are offering a special promotion for new members of our Cash Discount Program. Sign up within the next 30 days and
               receive a special discount on the initial setup fee.</p>
